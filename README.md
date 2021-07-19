@@ -9,7 +9,7 @@
 
 
 # Project Structure #
-`` 
+```
 .Build-My-World                    # Build My World Project 
 ├── model                          # Model files 
 │   ├── gokart
@@ -27,24 +27,23 @@
 │   ├── myoffice.world
 ├── CMakeLists.txt                 # Link libraries 
 └──   
-
-``
+```
 # BUILD AND RUN #
 1. Clone the repository 
 2. create a Build directory
-``
+```
 mkdir build && cd build
-``
-3. In `` /build `` 
-``
+```
+3. In ``` /build ```
+```
 cmake .. && make
-``
+```
 4. Export the plugin folder
-``
+```
 export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND-Term1-P1-Build-My-World/build
-``
+```
 5. Launch Gazebo
-``
-cd /home/workspace/github/RoboND-Term1-P1-Build-My-World/world/
+```
+cd /home/workspace/github/my_robot/world/
 gazebo my_world.world
-``
+```
