@@ -44,6 +44,6 @@ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND-Term1-P1-
 ```
 5. Launch Gazebo
 ```
-cd /home/workspace/github/my_robot/world/
-gazebo my_world.world
+cd /home/workspace/github/myrobot/world/
+gazebo myworld.world
 ```
