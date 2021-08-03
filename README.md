@@ -40,7 +40,7 @@ cmake .. && make
 ```
 4. Export the plugin folder
 ```
-export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND-Term1-P1-Build-My-World/build
+export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/Gazebo-World/build
 ```
 5. Launch Gazebo
 ```
